@@ -104,3 +104,46 @@ video {
     pointer-events: none;
     mix-blend-mode: screen;
 }
+
+
+/* Container Bem Vindo */
+
+.contaniner_bemvindo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+.col_bemVindo{
+    width: 50%;
+}
+.col_bemVindo h2{
+    color: #f8801f;    
+    text-align: center;
+}
+.saibaMais{
+    text-decoration: none;
+}
+.col_img_bemVindo{
+    width: 50%;
+}
+.subBemvindo{
+    max-width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.contentBemVindo{
+    max-width: 70%;
+    margin: 10px auto;
+}
+
+.col_img_bemVindo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Banner 01 */
+.banner01{
+    text-align: center;
+}
