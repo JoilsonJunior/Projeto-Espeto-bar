@@ -130,6 +130,8 @@ video {
     font-weight: bold;
 }
 .saibaMais{
+    position: relative;
+    left: 420px;
     text-decoration: none;
 }
 .col_img_bemVindo{
