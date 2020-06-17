@@ -3,6 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.container_inicio{
+    background-image: url('bac.png');
+    height: 900px;
+}
 
 nav {
     display: flex;
