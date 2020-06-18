@@ -172,13 +172,15 @@ section .container .contactForm .formBox .inputBox span{
     position: absolute;
     left: 0;
     padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
     color: #333;
     transition: 0.5s;
     pointer-events: none;
 }
 
 section .container .contactForm .formBox .inputBox input:focus ~ span,
-section .container .contactForm .formBox .inputBox textarea:focus ~ span
+section .container .contactForm .formBox .inputBox textarea:focus ~ span,
 section .container .contactForm .formBox .inputBox input:valid ~ span,
 section .container .contactForm .formBox .inputBox textarea:valid ~ span{
     transform: translateY(-20px);
