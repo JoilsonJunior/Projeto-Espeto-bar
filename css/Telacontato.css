@@ -7,6 +7,44 @@
     font-family:'Poppins' ,sans-serif;
     
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    
+}
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    left: 60px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;   
+}
+.nav-links a:hover{
+    color: #f8801f;
+    border: 1px solid #f8801f;
+    border-radius: 25px; 
+}
 
 section{
     position: relative;
@@ -202,6 +240,12 @@ section .container .contactForm .formBox .inputBox input[type="submit"]{
 
 section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
     background: black;
+}
+
+.logo1{
+    position: relative;
+    right: 450px;
+    top: 80;
 }
 
 

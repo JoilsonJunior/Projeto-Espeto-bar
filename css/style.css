@@ -26,6 +26,7 @@ nav {
 .nav-links{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .nav-links li{
@@ -33,17 +34,23 @@ nav {
 }
 
 .nav-links a{
-    color: whitesmoke;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 10px;   
+   position: relative;
+   display: inline-block;
+   padding: 10px 30px;
+   color: #f8801f;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-decoration: none;
+   font-size: 18px;
+   overflow: hidden;
+   transition: 0.2s; 
 }
 .nav-links a:hover{
-    color: #f8801f;
-    border: 1px solid #f8801f;
-    border-radius: 25px; 
+color: black;
+background: #f8801f;
+box-shadow: 0 0 10px #f8801f, 0 0 40px #f8801f, 0 0 80px #f8801f;
+
+
 }
 
 .img2{
